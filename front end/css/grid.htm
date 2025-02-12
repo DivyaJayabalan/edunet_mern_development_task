@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="header">header</div>
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+        <div class="item">item 4</div>
+        <div class="item">item 5</div>
+        <div class="item">item 6</div>
+        <div class="footer">footer</div>
+        
+    </div>
+    <style>
+        .header{
+           grid-column: 1/span 3;
+           background-color: rgba(235, 157, 218, 0.911);
+           color: black;
+           padding: 20px;
+           margin: 1mm;
+        }
+        .footer{
+            grid-column: 1/span 3;
+            background-color: rgb(218, 191, 243);
+            color: rgb(238, 113, 75);
+            padding: 20px;
+            margin: 1mm;
+        }
+        .grid-container{
+            background-color: rgb(233, 153, 48);
+            display: grid;
+            padding: 1mm;
+            
+           
+            
+
+        }
+        .item{
+            
+            color: crimson;
+            background-color: rgba(238, 255, 0, 0.678);
+            
+            border-style: groove;
+            padding: 1mm;
+            margin: 1mm;
+        }
+    </style>
+</body>
+</html>
